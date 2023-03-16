@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Analytics from './pages/Dashboard/Analytics'
 import Calendar from './pages/Calendar'
+import Video from './pages/Video'
 import Profile from './pages/Profile'
 import FormElements from './pages/Form/FormElements'
 import FormLayout from './pages/Form/FormLayout'
@@ -35,6 +36,7 @@ const App = () => {
         <Routes>
           <Route exact path='/' element={<Analytics />} />
           <Route path='/calendar' element={<Calendar />} />
+          <Route path='/video' element={<Video />} />
           <Route path='/profile' element={<Profile />} />
           <Route path='/forms/form-elements' element={<FormElements />} />
           <Route path='/forms/form-layout' element={<FormLayout />} />

@@ -84,7 +84,7 @@ class ChartTwo extends Component {
         <div className='mb-4 justify-between gap-4 sm:flex'>
           <div>
             <h4 className='text-xl font-semibold text-black dark:text-white'>
-              Profit this week
+              Profit this week aldi yasin
             </h4>
           </div>
           <div>
