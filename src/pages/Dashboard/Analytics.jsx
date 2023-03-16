@@ -2,12 +2,6 @@ import React from "react";
 import DefaultLayout from "../../layout/DefaultLayout";
 import CardVideo from "../../components/CardVideo";
 import CardUser from "../../components/CardUser";
-import ChatCard from "../../components/ChatCard";
-import TableOne from "../../components/TableOne";
-import ChartOne from "../../components/ChartOne";
-import ChartTwo from "../../components/ChartTwo";
-import ChartThree from "../../components/ChartThree";
-import MapOne from "../../components/MapOne";
 
 const Analytics = () => {
   return (
