@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Analytics from "./pages/Dashboard/Analytics";
 import Calendar from "./pages/Calendar";
 import Video from "./pages/Video";
+import User from "./pages/User";
 import Profile from "./pages/Profile";
 import FormElements from "./pages/Form/FormElements";
 import FormLayout from "./pages/Form/FormLayout";
@@ -37,6 +38,7 @@ const App = () => {
           <Route exact path="/" element={<Analytics />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/video" element={<Video />} />
+          <Route path="/user" element={<User />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/forms/form-elements" element={<FormElements />} />
           <Route path="/forms/form-layout" element={<FormLayout />} />
