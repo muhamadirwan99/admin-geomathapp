@@ -4,6 +4,7 @@ import Analytics from './pages/Dashboard/Analytics'
 import Calendar from './pages/Calendar'
 import Video from './pages/Video'
 import Profile from './pages/Profile'
+import User from './pages/User'
 import FormElements from './pages/Form/FormElements'
 import FormLayout from './pages/Form/FormLayout'
 import Tables from './pages/Tables'
@@ -38,6 +39,7 @@ const App = () => {
           <Route path='/calendar' element={<Calendar />} />
           <Route path='/video' element={<Video />} />
           <Route path='/profile' element={<Profile />} />
+          <Route path='/user' element={<User />} />
           <Route path='/forms/form-elements' element={<FormElements />} />
           <Route path='/forms/form-layout' element={<FormLayout />} />
           <Route path='/tables' element={<Tables />} />
