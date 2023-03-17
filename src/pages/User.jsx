@@ -5,12 +5,16 @@ import CoverOne from '../images/cover/cover-01.png'
 import userSix from '../images/user/user-06.png'
 import TableUser from '../components/TableUser';
 
-const Profile = () => {
+const User = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName='Profile' />
+      <Breadcrumb pageName='user' />
 
-      <div className='overflow-hidden rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark'>
+      <div className='flex flex-col gap-10'>
+        <TableUser />
+      </div>
+
+      {/* <div className='overflow-hidden rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark'>
         <div className='relative z-20 h-35 md:h-65'>
           <img
             src={CoverOne}
@@ -286,9 +290,9 @@ const Profile = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </DefaultLayout>
   )
 }
 
-export default Profile;
+export default User;
