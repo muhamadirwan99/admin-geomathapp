@@ -1,5 +1,8 @@
 import DefaultLayout from '../layout/DefaultLayout';
 import Breadcrumb from '../components/Breadcrumb';
+import TableVideo from '../components/TableVideo';
+import TableTwo from '../components/TableTwo';
+import TableThree from '../components/TableThree';
 
 const Video = () => {
 
@@ -7,7 +10,6 @@ const Video = () => {
         <DefaultLayout>
             <Breadcrumb  pageName={'Video'}/>
             {/* <!-- Insert Video Form --> */}
- 
           <div className='rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark'>
             <div className='border-b border-stroke py-4 px-6.5 dark:border-strokedark'>
               <h3 className='font-medium text-black dark:text-white'>
@@ -129,6 +131,13 @@ const Video = () => {
               </div>
             </form>
           </div>
+
+          <div className='mt-6 flex flex-col gap-10'>
+            <TableVideo/>
+          </div>
+
+
+          
         </DefaultLayout>
     )
 }
